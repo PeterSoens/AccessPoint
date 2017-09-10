@@ -36,4 +36,4 @@ To charge the battery you will need a [usb wall charger](https://www.amazon.com/
 
 # Procedure
 
-The information is sent from the microcontroller to the Rasbperry Pi using MQTT (Message Queue Telemetry Transport) protocol. And so one of the Raspberry Pi's (the one not connected to the touchscreen) will need to have an MQTT broker installed. I chose to use [Mosquitto](https://mosquitto.org/).
+The information is sent from the microcontroller to the Rasbperry Pi using MQTT (Message Queue Telemetry Transport) protocol. And so one of the Raspberry Pi's (the one not connected to the touchscreen) will need to have an MQTT broker installed. I chose to use [Mosquitto](https://mosquitto.org/).  The Pi will then use the paho mqtt api in the python code.
